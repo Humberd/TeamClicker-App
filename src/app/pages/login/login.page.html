@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <form (ngSubmit)="foo()">
+    <ion-item>
+      <ion-input required
+                 type="text"
+                 placeholder="Username">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input required
+                 type="password"
+                 placeholder="Password">
+      </ion-input>
+    </ion-item>
+
+    <ion-button type="submit">Login</ion-button>
+  </form>
+
+</ion-content>
